@@ -4,10 +4,10 @@ import SwiftUI
 
 class TodayViewModel: NSObject, ObservableObject {
     // EnableLocationView
-    let enableLocationViewTitlePart1 = "Enable"
-    let enableLocationViewTitlePart2 = "location"
-    let enableLocationViewButtonTitle = "Enable location"
-    let enableLocationViewTextMessage = "Give us permission to see forecast for your current location."
+    let enableLocationViewTitlePart1 = String.LocalizableSwiftUI.enableLocationViewTitlePart1
+    let enableLocationViewTitlePart2 = String.LocalizableSwiftUI.enableLocationViewTitlePart2
+    let enableLocationViewButtonTitle = String.LocalizableSwiftUI.enableLocationViewButtonTitle
+    let enableLocationViewTextMessage = String.LocalizableSwiftUI.enableLocationViewTextMessage
 
     private let manager = CLLocationManager()
     @Published var userLocation: CLLocation?

@@ -6,6 +6,10 @@ struct EnableLocationView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
+            Image.locationFill
+                .font(.system(size: 40))
+                .padding(.top, 96)
+
             VStack(alignment: .leading, spacing: 0) {
                 Text(viewModel.enableLocationViewTitlePart1)
                     .kerning(-2.56)
@@ -13,9 +17,11 @@ struct EnableLocationView: View {
                     .kerning(-2.56)
                     .padding(.top, -15)
             }
+            .font(.interBoldSize64Weight700)
             .padding(.top, 40)
 
             Text(viewModel.enableLocationViewTextMessage)
+                .font(.interMediumSize16Weight500)
                 .padding(.top, 40)
 
             enableLocationButton
@@ -32,6 +38,7 @@ struct EnableLocationView: View {
             viewModel.requestLocation()
         } label: {
             Text(viewModel.enableLocationViewButtonTitle)
+                .font(.interSemiBoldSize16Weight600)
                 .foregroundColor(colorScheme == .light ? .white : .black)
                 .padding(.vertical, 8)
                 .padding(.horizontal, 16)
