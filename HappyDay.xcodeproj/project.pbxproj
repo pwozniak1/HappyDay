@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B45D00C12AC46DA4008D6D60 /* HappyDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D00C02AC46DA4008D6D60 /* HappyDayApp.swift */; };
-		B45D00C32AC46DA4008D6D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D00C22AC46DA4008D6D60 /* ContentView.swift */; };
+		B45D00C32AC46DA4008D6D60 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D00C22AC46DA4008D6D60 /* OnboardingView.swift */; };
 		B45D00C52AC46DA5008D6D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D00C42AC46DA5008D6D60 /* Assets.xcassets */; };
 		B45D00C82AC46DA5008D6D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */; };
 		B4BD0D352ACAB38700E2D75C /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D312ACAB38700E2D75C /* Inter-Bold.otf */; };
 		B4BD0D362ACAB38700E2D75C /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */; };
 		B4BD0D372ACAB38700E2D75C /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */; };
 		B4BD0D382ACAB38700E2D75C /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D342ACAB38700E2D75C /* Inter-Medium.otf */; };
+		B4BD0D3C2ACAB5A900E2D75C /* EnableLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D3B2ACAB5A900E2D75C /* EnableLocationView.swift */; };
+		B4BD0D3F2ACAB5F800E2D75C /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D3E2ACAB5F800E2D75C /* TodayViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B45D00BD2AC46DA4008D6D60 /* HappyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45D00C02AC46DA4008D6D60 /* HappyDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyDayApp.swift; sourceTree = "<group>"; };
-		B45D00C22AC46DA4008D6D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B45D00C22AC46DA4008D6D60 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B45D00C42AC46DA5008D6D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4BD0D2E2ACAB34300E2D75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
 		B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
 		B4BD0D342ACAB38700E2D75C /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
+		B4BD0D3B2ACAB5A900E2D75C /* EnableLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableLocationView.swift; sourceTree = "<group>"; };
+		B4BD0D3E2ACAB5F800E2D75C /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,7 @@
 			children = (
 				B4BD0D2E2ACAB34300E2D75C /* Info.plist */,
 				B45D00C02AC46DA4008D6D60 /* HappyDayApp.swift */,
-				B45D00C22AC46DA4008D6D60 /* ContentView.swift */,
+				B4BD0D3A2ACAB51E00E2D75C /* Features */,
 				B4BD0D2F2ACAB35600E2D75C /* Resources */,
 				B45D00C62AC46DA5008D6D60 /* Preview Content */,
 			);
@@ -95,6 +99,24 @@
 				B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B4BD0D3A2ACAB51E00E2D75C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B45D00C22AC46DA4008D6D60 /* OnboardingView.swift */,
+				B4BD0D3B2ACAB5A900E2D75C /* EnableLocationView.swift */,
+				B4BD0D3D2ACAB5E000E2D75C /* TodayViewModel */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B4BD0D3D2ACAB5E000E2D75C /* TodayViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D3E2ACAB5F800E2D75C /* TodayViewModel.swift */,
+			);
+			path = TodayViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B45D00C32AC46DA4008D6D60 /* ContentView.swift in Sources */,
+				B4BD0D3F2ACAB5F800E2D75C /* TodayViewModel.swift in Sources */,
+				B45D00C32AC46DA4008D6D60 /* OnboardingView.swift in Sources */,
+				B4BD0D3C2ACAB5A900E2D75C /* EnableLocationView.swift in Sources */,
 				B45D00C12AC46DA4008D6D60 /* HappyDayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +369,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HappyDay/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -374,6 +399,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HappyDay/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
