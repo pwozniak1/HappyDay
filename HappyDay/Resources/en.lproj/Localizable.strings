@@ -1,0 +1,5 @@
+// EnableLocationView
+"enableLocationViewTitlePart1" = "Enable";
+"enableLocationViewTitlePart2" = "location";
+"enableLocationViewButtonTitle" = "Enable location";
+"enableLocationViewTextMessage" = "Give us permission to see forecast for your current location.";
