@@ -1,0 +1,42 @@
+import SwiftUI
+
+public extension Image {
+    static let forecastBrokenCloudsLight = Image("ForecastBrokenClouds-Light")
+    static let forecastCloudyLight = Image("ForecastCloudy-Light")
+    static let forecastFewCloudsMoonLight = Image("ForecastFewCloudsMoon-Light")
+    static let forecastFewCloudsSunLight = Image("ForecastFewCloudsSun-Light")
+    static let forecastMistLight = Image("ForecastMist-Light")
+    static let forecastMoonLight = Image("ForecastMoon-Light")
+    static let forecastRainLight = Image("ForecastRain-Light")
+    static let forecastShowersLight = Image("ForecastShowers-Light")
+    static let forecastSnowLight = Image("ForecastSnow-Light")
+    static let forecastSunLight = Image("ForecastSun-Light")
+    static let forecastThunderstormLight = Image("ForecastThunderstorm-Light")
+    static let tabBarForecastLight = Image("TabBarForecast-Light")
+    static let tabBarTodayLight = Image("TabBarToday-Light")
+    static let todayBrokenCloudsLight = Image("TodayBrokenClouds-Light")
+    static let todayCloudyLight = Image("TodayCloudy-Light")
+    static let todayFewCloudsMoonLight = Image("TodayFewCloudsMoon-Light")
+    static let todayFewCloudsSunLight = Image("TodayFewCloudsSun-Light")
+    static let todayHumidityLight = Image("TodayHumidity-Light")
+    static let todayMistLight = Image("TodayMist-Light")
+    static let todayMoonLight = Image("TodayMoon-Light")
+    static let todayPrecipitationLight = Image("TodayPrecipitation-Light")
+    static let todayPressureLight = Image("TodayPressure-Light")
+    static let todayRainLight = Image("TodayRain-Light")
+    static let todayShowersLight = Image("TodayShowers-Light")
+    static let todaySnowLight = Image("TodaySnow-Light")
+    static let todaySunLight = Image("TodaySun-Light")
+    static let todayThunderstormLight = Image("TodayThunderstorm-Light")
+    static let todayWindDirectionLight = Image("TodayWindDirection-Light")
+    static let todayWindSpeedLight = Image("TodayWindSpeed-Light")
+    static let tabBarForecastGray = Image("TabBarForecast-Gray")
+    static let tabBarTodayGray = Image("TabBarToday-Gray")
+    static let warningGlyph = Image("WarningGlyph")
+    static let loadAgainGlyph = Image("LoadAgainGlyph")
+    static let baseLoadAgainButton = Image("BaseLoadAgainButton")
+}
+
+public extension Image {
+    static let locationFill = Image(systemName: "location.fill")
+}
