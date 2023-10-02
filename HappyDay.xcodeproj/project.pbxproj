@@ -11,6 +11,10 @@
 		B45D00C32AC46DA4008D6D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D00C22AC46DA4008D6D60 /* ContentView.swift */; };
 		B45D00C52AC46DA5008D6D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D00C42AC46DA5008D6D60 /* Assets.xcassets */; };
 		B45D00C82AC46DA5008D6D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */; };
+		B4BD0D352ACAB38700E2D75C /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D312ACAB38700E2D75C /* Inter-Bold.otf */; };
+		B4BD0D362ACAB38700E2D75C /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */; };
+		B4BD0D372ACAB38700E2D75C /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */; };
+		B4BD0D382ACAB38700E2D75C /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D342ACAB38700E2D75C /* Inter-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		B45D00C22AC46DA4008D6D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B45D00C42AC46DA5008D6D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4BD0D2E2ACAB34300E2D75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B4BD0D312ACAB38700E2D75C /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
+		B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		B4BD0D342ACAB38700E2D75C /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +60,10 @@
 		B45D00BF2AC46DA4008D6D60 /* HappyDay */ = {
 			isa = PBXGroup;
 			children = (
+				B4BD0D2E2ACAB34300E2D75C /* Info.plist */,
 				B45D00C02AC46DA4008D6D60 /* HappyDayApp.swift */,
 				B45D00C22AC46DA4008D6D60 /* ContentView.swift */,
-				B45D00C42AC46DA5008D6D60 /* Assets.xcassets */,
+				B4BD0D2F2ACAB35600E2D75C /* Resources */,
 				B45D00C62AC46DA5008D6D60 /* Preview Content */,
 			);
 			path = HappyDay;
@@ -65,6 +75,26 @@
 				B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4BD0D2F2ACAB35600E2D75C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D302ACAB36E00E2D75C /* Fonts */,
+				B45D00C42AC46DA5008D6D60 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4BD0D302ACAB36E00E2D75C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D312ACAB38700E2D75C /* Inter-Bold.otf */,
+				B4BD0D342ACAB38700E2D75C /* Inter-Medium.otf */,
+				B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */,
+				B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45D00C82AC46DA5008D6D60 /* Preview Assets.xcassets in Resources */,
+				B4BD0D382ACAB38700E2D75C /* Inter-Medium.otf in Resources */,
+				B4BD0D362ACAB38700E2D75C /* Inter-Regular.otf in Resources */,
 				B45D00C52AC46DA5008D6D60 /* Assets.xcassets in Resources */,
+				B4BD0D372ACAB38700E2D75C /* Inter-SemiBold.otf in Resources */,
+				B4BD0D352ACAB38700E2D75C /* Inter-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +344,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HappyDay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappyDay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -338,6 +373,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HappyDay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappyDay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
