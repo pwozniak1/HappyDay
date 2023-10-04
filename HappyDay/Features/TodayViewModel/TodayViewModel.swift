@@ -9,6 +9,9 @@ class TodayViewModel: NSObject, ObservableObject {
     let enableLocationViewButtonTitle = String.LocalizableSwiftUI.enableLocationViewButtonTitle
     let enableLocationViewTextMessage = String.LocalizableSwiftUI.enableLocationViewTextMessage
 
+    @Published var startPoint: CGFloat = 0.0
+    @Published var endPoint: CGFloat = 1.0
+
     private let manager = CLLocationManager()
     @Published var userLocation: CLLocation?
 
@@ -17,6 +20,13 @@ class TodayViewModel: NSObject, ObservableObject {
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBest
         manager.startUpdatingLocation()
+    }
+
+    func startAnimation() {
+        withAnimation(Animation.easeInOut(duration: 3.5).repeatForever(autoreverses: true)) {
+            startPoint = startPoint == 1 ? 0 : 1
+            endPoint = endPoint == 1 ? 0 : 1
+        }
     }
 
     func requestLocation() {
