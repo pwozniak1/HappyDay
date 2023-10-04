@@ -31,6 +31,12 @@ struct EnableLocationView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.leading, 24)
+        .background(
+            GradientBackground(state: .blueGradient, startPoint: $viewModel.startPoint, endPoint: $viewModel.endPoint)
+                .onAppear {
+                    viewModel.startAnimation()
+                }
+        )
     }
 
     var enableLocationButton: some View {
