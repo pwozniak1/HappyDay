@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		B45D00C12AC46DA4008D6D60 /* HappyDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D00C02AC46DA4008D6D60 /* HappyDayApp.swift */; };
-		B45D00C32AC46DA4008D6D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D00C22AC46DA4008D6D60 /* ContentView.swift */; };
+		B45D00C32AC46DA4008D6D60 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D00C22AC46DA4008D6D60 /* OnboardingView.swift */; };
 		B45D00C52AC46DA5008D6D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D00C42AC46DA5008D6D60 /* Assets.xcassets */; };
 		B45D00C82AC46DA5008D6D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */; };
+		B4BD0D352ACAB38700E2D75C /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D312ACAB38700E2D75C /* Inter-Bold.otf */; };
+		B4BD0D362ACAB38700E2D75C /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */; };
+		B4BD0D372ACAB38700E2D75C /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */; };
+		B4BD0D382ACAB38700E2D75C /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D342ACAB38700E2D75C /* Inter-Medium.otf */; };
+		B4BD0D3C2ACAB5A900E2D75C /* EnableLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D3B2ACAB5A900E2D75C /* EnableLocationView.swift */; };
+		B4BD0D3F2ACAB5F800E2D75C /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D3E2ACAB5F800E2D75C /* TodayViewModel.swift */; };
+		B4BD0D432ACB2B7900E2D75C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D422ACB2B7900E2D75C /* Images.swift */; };
+		B4BD0D452ACB2B9500E2D75C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D442ACB2B9500E2D75C /* Fonts.swift */; };
+		B4BD0D472ACB2BB200E2D75C /* LocalizableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D462ACB2BB200E2D75C /* LocalizableString.swift */; };
+		B4BD0D492ACB2BDB00E2D75C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D482ACB2BDB00E2D75C /* Colors.swift */; };
+		B4BD0D4C2ACB2C3000E2D75C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D4E2ACB2C3000E2D75C /* Localizable.strings */; };
+		B4BD0D522ACD32F400E2D75C /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D512ACD32F400E2D75C /* GradientBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B45D00BD2AC46DA4008D6D60 /* HappyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45D00C02AC46DA4008D6D60 /* HappyDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyDayApp.swift; sourceTree = "<group>"; };
-		B45D00C22AC46DA4008D6D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B45D00C22AC46DA4008D6D60 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B45D00C42AC46DA5008D6D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4BD0D2E2ACAB34300E2D75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B4BD0D312ACAB38700E2D75C /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
+		B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		B4BD0D342ACAB38700E2D75C /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
+		B4BD0D3B2ACAB5A900E2D75C /* EnableLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableLocationView.swift; sourceTree = "<group>"; };
+		B4BD0D3E2ACAB5F800E2D75C /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
+		B4BD0D422ACB2B7900E2D75C /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		B4BD0D442ACB2B9500E2D75C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B4BD0D462ACB2BB200E2D75C /* LocalizableString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableString.swift; sourceTree = "<group>"; };
+		B4BD0D482ACB2BDB00E2D75C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B4BD0D4D2ACB2C3000E2D75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B4BD0D4F2ACB2C3200E2D75C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B4BD0D512ACD32F400E2D75C /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +77,11 @@
 		B45D00BF2AC46DA4008D6D60 /* HappyDay */ = {
 			isa = PBXGroup;
 			children = (
+				B4BD0D2E2ACAB34300E2D75C /* Info.plist */,
 				B45D00C02AC46DA4008D6D60 /* HappyDayApp.swift */,
-				B45D00C22AC46DA4008D6D60 /* ContentView.swift */,
-				B45D00C42AC46DA5008D6D60 /* Assets.xcassets */,
+				B4BD0D2F2ACAB35600E2D75C /* Resources */,
+				B4BD0D402ACB2B5600E2D75C /* CoreUI */,
+				B4BD0D3A2ACAB51E00E2D75C /* Features */,
 				B45D00C62AC46DA5008D6D60 /* Preview Content */,
 			);
 			path = HappyDay;
@@ -65,6 +93,73 @@
 				B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4BD0D2F2ACAB35600E2D75C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D302ACAB36E00E2D75C /* Fonts */,
+				B45D00C42AC46DA5008D6D60 /* Assets.xcassets */,
+				B4BD0D4E2ACB2C3000E2D75C /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4BD0D302ACAB36E00E2D75C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D312ACAB38700E2D75C /* Inter-Bold.otf */,
+				B4BD0D342ACAB38700E2D75C /* Inter-Medium.otf */,
+				B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */,
+				B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B4BD0D3A2ACAB51E00E2D75C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B45D00C22AC46DA4008D6D60 /* OnboardingView.swift */,
+				B4BD0D3B2ACAB5A900E2D75C /* EnableLocationView.swift */,
+				B4BD0D3D2ACAB5E000E2D75C /* TodayViewModel */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B4BD0D3D2ACAB5E000E2D75C /* TodayViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D3E2ACAB5F800E2D75C /* TodayViewModel.swift */,
+			);
+			path = TodayViewModel;
+			sourceTree = "<group>";
+		};
+		B4BD0D402ACB2B5600E2D75C /* CoreUI */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D502ACD32E600E2D75C /* Views */,
+				B4BD0D412ACB2B6E00E2D75C /* Extensions */,
+			);
+			path = CoreUI;
+			sourceTree = "<group>";
+		};
+		B4BD0D412ACB2B6E00E2D75C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D422ACB2B7900E2D75C /* Images.swift */,
+				B4BD0D482ACB2BDB00E2D75C /* Colors.swift */,
+				B4BD0D442ACB2B9500E2D75C /* Fonts.swift */,
+				B4BD0D462ACB2BB200E2D75C /* LocalizableString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4BD0D502ACD32E600E2D75C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D512ACD32F400E2D75C /* GradientBackground.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +206,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = B45D00B42AC46DA4008D6D60;
 			productRefGroup = B45D00BE2AC46DA4008D6D60 /* Products */;
@@ -128,7 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45D00C82AC46DA5008D6D60 /* Preview Assets.xcassets in Resources */,
+				B4BD0D382ACAB38700E2D75C /* Inter-Medium.otf in Resources */,
+				B4BD0D362ACAB38700E2D75C /* Inter-Regular.otf in Resources */,
+				B4BD0D4C2ACB2C3000E2D75C /* Localizable.strings in Resources */,
 				B45D00C52AC46DA5008D6D60 /* Assets.xcassets in Resources */,
+				B4BD0D372ACAB38700E2D75C /* Inter-SemiBold.otf in Resources */,
+				B4BD0D352ACAB38700E2D75C /* Inter-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,12 +279,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B45D00C32AC46DA4008D6D60 /* ContentView.swift in Sources */,
+				B4BD0D3F2ACAB5F800E2D75C /* TodayViewModel.swift in Sources */,
+				B4BD0D492ACB2BDB00E2D75C /* Colors.swift in Sources */,
+				B45D00C32AC46DA4008D6D60 /* OnboardingView.swift in Sources */,
+				B4BD0D432ACB2B7900E2D75C /* Images.swift in Sources */,
+				B4BD0D3C2ACAB5A900E2D75C /* EnableLocationView.swift in Sources */,
+				B4BD0D452ACB2B9500E2D75C /* Fonts.swift in Sources */,
 				B45D00C12AC46DA4008D6D60 /* HappyDayApp.swift in Sources */,
+				B4BD0D472ACB2BB200E2D75C /* LocalizableString.swift in Sources */,
+				B4BD0D522ACD32F400E2D75C /* GradientBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4BD0D4E2ACB2C3000E2D75C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4BD0D4D2ACB2C3000E2D75C /* en */,
+				B4BD0D4F2ACB2C3200E2D75C /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B45D00C92AC46DA5008D6D60 /* Debug */ = {
@@ -236,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -290,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -310,6 +430,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HappyDay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappyDay/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -338,6 +460,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HappyDay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappyDay/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

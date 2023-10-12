@@ -1,0 +1,5 @@
+// EnableLocationView
+"enableLocationViewTitlePart1" = "Włącz";
+"enableLocationViewTitlePart2" = "lokalizację";
+"enableLocationViewButtonTitle" = "Włącz lokalizację";
+"enableLocationViewTextMessage" = "Daj nam pozwolenie na wyświetlanie prognozy dla Twojej obecnej lokalizacji.";
