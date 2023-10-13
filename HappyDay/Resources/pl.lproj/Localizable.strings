@@ -3,3 +3,15 @@
 "enableLocationViewTitlePart2" = "lokalizację";
 "enableLocationViewButtonTitle" = "Włącz lokalizację";
 "enableLocationViewTextMessage" = "Daj nam pozwolenie na wyświetlanie prognozy dla Twojej obecnej lokalizacji.";
+// TodaySuccessView
+"todayWeatherViewTitleItsRainingPart1" = "Pada";
+"todayWeatherViewTitleItsRainingPart2" = "deszcz.";
+"todayWeatherViewTitleItsHotAsFuPart1" = "Jest";
+"todayWeatherViewTitleItsHotAsFuPart2" = "gorąco jak skurwysyn.";
+"todayWeatherViewHumidity" = "Wilgotność";
+"todayWeatherViewPrecipitation" = "Opady";
+"todayWeatherViewPressure" = "Ciśnienie";
+"todayWeatherViewDirection" = "Kierunek";
+"todayWeatherViewWind" = "Wiatr";
+"todayWeatherViewTabItemToday" = "Dziś";
+"todayWeatherViewTabItemForecast" = "Prognoza";

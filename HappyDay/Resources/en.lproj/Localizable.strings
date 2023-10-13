@@ -3,3 +3,15 @@
 "enableLocationViewTitlePart2" = "location";
 "enableLocationViewButtonTitle" = "Enable location";
 "enableLocationViewTextMessage" = "Give us permission to see forecast for your current location.";
+// TodaySuccessView
+"todayWeatherViewTitleItsRainingPart1" = "It’s";
+"todayWeatherViewTitleItsRainingPart2" = "raining.";
+"todayWeatherViewTitleItsHotAsFuPart1" = "It's";
+"todayWeatherViewTitleItsHotAsFuPart2" = "hot as f***.";
+"todayWeatherViewHumidity" = "Humidity";
+"todayWeatherViewPrecipitation" = "Precipitation";
+"todayWeatherViewPressure" = "Pressure";
+"todayWeatherViewDirection" = "Direction";
+"todayWeatherViewWind" = "Wind";
+"todayWeatherViewTabItemToday" = "Today";
+"todayWeatherViewTabItemForecast" = "Forecast";
