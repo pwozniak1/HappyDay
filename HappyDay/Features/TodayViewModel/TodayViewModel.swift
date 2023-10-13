@@ -8,12 +8,28 @@ class TodayViewModel: NSObject, ObservableObject {
     let enableLocationViewTitlePart2 = String.LocalizableSwiftUI.enableLocationViewTitlePart2
     let enableLocationViewButtonTitle = String.LocalizableSwiftUI.enableLocationViewButtonTitle
     let enableLocationViewTextMessage = String.LocalizableSwiftUI.enableLocationViewTextMessage
+    // TodaySuccessView
+    let todayWeatherViewTitleItsRainingPart1 = String.LocalizableSwiftUI.todayWeatherViewTitleItsRainingPart1
+    let todayWeatherViewTitleItsRainingPart2 = String.LocalizableSwiftUI.todayWeatherViewTitleItsRainingPart2
+    let todayWeatherViewTitleItsHotAsFuPart1 = String.LocalizableSwiftUI.todayWeatherViewTitleItsHotAsFuPart1
+    let todayWeatherViewTitleItsHotAsFuPart2 = String.LocalizableSwiftUI.todayWeatherViewTitleItsHotAsFuPart2
+    let todayWeatherViewHumidity = String.LocalizableSwiftUI.todayWeatherViewHumidity
+    let todayWeatherViewPrecipitation = String.LocalizableSwiftUI.todayWeatherViewPrecipitation
+    let todayWeatherViewPressure = String.LocalizableSwiftUI.todayWeatherViewPressure
+    let todayWeatherViewDirection = String.LocalizableSwiftUI.todayWeatherViewDirection
+    let todayWeatherViewWind = String.LocalizableSwiftUI.todayWeatherViewWind
+    let todayWeatherViewTabItemToday = String.LocalizableSwiftUI.todayWeatherViewTabItemToday
+    let todayWeatherViewTabItemForecast = String.LocalizableSwiftUI.todayWeatherViewTabItemForecast
+
+    @Published var currentTagSelection = 0
 
     @Published var startPoint: CGFloat = 0.0
     @Published var endPoint: CGFloat = 1.0
 
     private let manager = CLLocationManager()
     @Published var userLocation: CLLocation?
+
+    @Published var apiStateToday: ApiStateToday? = .success
 
     override init() {
         super.init()
