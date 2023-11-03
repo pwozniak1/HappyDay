@@ -30,8 +30,15 @@ class TodayViewModel: NSObject, ObservableObject {
     @Published var userLocation: CLLocation?
 
     @Published var apiStateToday: ApiStateToday? = .success
+    @Published var apiStateForecast: ApiStateForecast?
 
-    override init() {
+    @Published var todayWeather: CurrentWeather?
+    @Published var weatherResponse: WeatherResponse?
+
+    let service: APIServiceProtocol
+
+    init(service: APIServiceProtocol = APIService()) {
+        self.service = service
         super.init()
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBest
@@ -47,6 +54,42 @@ class TodayViewModel: NSObject, ObservableObject {
 
     func requestLocation() {
         manager.requestWhenInUseAuthorization()
+    }
+}
+
+extension TodayViewModel {
+    func fetchTodayData() async {
+        let latitude = String(userLocation?.coordinate.latitude ?? 0)
+        let longitude = String(userLocation?.coordinate.longitude ?? 0)
+
+        do {
+            let decodedData = try await service.fetchWeatherToday(lat: latitude, lon: longitude)
+            await MainActor.run {
+                self.todayWeather = decodedData
+                self.apiStateToday = .success
+            }
+        } catch {
+            await MainActor.run {
+                self.apiStateToday = .error
+            }
+        }
+    }
+
+    func fetchForecastData() async {
+        let latitude = String(userLocation?.coordinate.latitude ?? 0)
+        let longitude = String(userLocation?.coordinate.longitude ?? 0)
+
+        do {
+            let decodedData = try await service.fetchWeatherForecast(lat: latitude, lon: longitude)
+            await MainActor.run {
+                self.weatherResponse = decodedData
+                self.apiStateForecast = .success
+            }
+        } catch {
+            await MainActor.run {
+                self.apiStateForecast = .error
+            }
+        }
     }
 }
 

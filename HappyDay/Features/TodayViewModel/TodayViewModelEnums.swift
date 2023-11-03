@@ -6,4 +6,10 @@ extension TodayViewModel {
         case loading
         case error
     }
+
+    enum ApiStateForecast {
+        case success
+        case loading
+        case error
+    }
 }
