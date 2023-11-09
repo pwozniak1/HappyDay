@@ -7,7 +7,9 @@ struct OnboardingView: View {
         Group {
             if viewModel.userLocation == nil {
                 EnableLocationView(viewModel: viewModel)
-            } else {}
+            } else {
+                TodayWeatherView(viewModel: viewModel)
+            }
         }
     }
 }

@@ -23,6 +23,16 @@
 		B4BD0D492ACB2BDB00E2D75C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D482ACB2BDB00E2D75C /* Colors.swift */; };
 		B4BD0D4C2ACB2C3000E2D75C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D4E2ACB2C3000E2D75C /* Localizable.strings */; };
 		B4BD0D522ACD32F400E2D75C /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D512ACD32F400E2D75C /* GradientBackground.swift */; };
+		B4BD0D552AD9BD3100E2D75C /* TodayViewModelEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D542AD9BD3100E2D75C /* TodayViewModelEnums.swift */; };
+		B4BD0D572AD9BD5C00E2D75C /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D562AD9BD5C00E2D75C /* TodayWeatherView.swift */; };
+		B4BD0D5A2AEA763200E2D75C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D592AEA763200E2D75C /* APIService.swift */; };
+		B4BD0D5D2AEA769200E2D75C /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D5C2AEA769200E2D75C /* CurrentWeather.swift */; };
+		B4BD0D5F2AEA769B00E2D75C /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D5E2AEA769B00E2D75C /* ForecastModel.swift */; };
+		B4BD0D612AEA76B800E2D75C /* ModelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D602AEA76B800E2D75C /* ModelExtensions.swift */; };
+		B4BD0D632AEA76FA00E2D75C /* WeatherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D622AEA76FA00E2D75C /* WeatherError.swift */; };
+		B4BD0D652AEA7B8D00E2D75C /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D642AEA7B8D00E2D75C /* APIServiceProtocol.swift */; };
+		B4BD0D6D2AFDA21D00E2D75C /* TodaySuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D6C2AFDA21D00E2D75C /* TodaySuccessView.swift */; };
+		B4BD0D6F2AFDA22F00E2D75C /* TodaySuccessItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D6E2AFDA22F00E2D75C /* TodaySuccessItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +55,16 @@
 		B4BD0D4D2ACB2C3000E2D75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B4BD0D4F2ACB2C3200E2D75C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B4BD0D512ACD32F400E2D75C /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		B4BD0D542AD9BD3100E2D75C /* TodayViewModelEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModelEnums.swift; sourceTree = "<group>"; };
+		B4BD0D562AD9BD5C00E2D75C /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
+		B4BD0D592AEA763200E2D75C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B4BD0D5C2AEA769200E2D75C /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		B4BD0D5E2AEA769B00E2D75C /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		B4BD0D602AEA76B800E2D75C /* ModelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExtensions.swift; sourceTree = "<group>"; };
+		B4BD0D622AEA76FA00E2D75C /* WeatherError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherError.swift; sourceTree = "<group>"; };
+		B4BD0D642AEA7B8D00E2D75C /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
+		B4BD0D6C2AFDA21D00E2D75C /* TodaySuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySuccessView.swift; sourceTree = "<group>"; };
+		B4BD0D6E2AFDA22F00E2D75C /* TodaySuccessItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySuccessItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,8 @@
 		B45D00BF2AC46DA4008D6D60 /* HappyDay */ = {
 			isa = PBXGroup;
 			children = (
+				B4BD0D5B2AEA766F00E2D75C /* Model */,
+				B4BD0D582AEA761200E2D75C /* Networking */,
 				B4BD0D2E2ACAB34300E2D75C /* Info.plist */,
 				B45D00C02AC46DA4008D6D60 /* HappyDayApp.swift */,
 				B4BD0D2F2ACAB35600E2D75C /* Resources */,
@@ -121,6 +143,7 @@
 			children = (
 				B45D00C22AC46DA4008D6D60 /* OnboardingView.swift */,
 				B4BD0D3B2ACAB5A900E2D75C /* EnableLocationView.swift */,
+				B4BD0D532AD9BD0700E2D75C /* Today */,
 				B4BD0D3D2ACAB5E000E2D75C /* TodayViewModel */,
 			);
 			path = Features;
@@ -130,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				B4BD0D3E2ACAB5F800E2D75C /* TodayViewModel.swift */,
+				B4BD0D542AD9BD3100E2D75C /* TodayViewModelEnums.swift */,
 			);
 			path = TodayViewModel;
 			sourceTree = "<group>";
@@ -160,6 +184,36 @@
 				B4BD0D512ACD32F400E2D75C /* GradientBackground.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B4BD0D532AD9BD0700E2D75C /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D562AD9BD5C00E2D75C /* TodayWeatherView.swift */,
+				B4BD0D6C2AFDA21D00E2D75C /* TodaySuccessView.swift */,
+				B4BD0D6E2AFDA22F00E2D75C /* TodaySuccessItemView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		B4BD0D582AEA761200E2D75C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D592AEA763200E2D75C /* APIService.swift */,
+				B4BD0D642AEA7B8D00E2D75C /* APIServiceProtocol.swift */,
+				B4BD0D622AEA76FA00E2D75C /* WeatherError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B4BD0D5B2AEA766F00E2D75C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD0D5C2AEA769200E2D75C /* CurrentWeather.swift */,
+				B4BD0D602AEA76B800E2D75C /* ModelExtensions.swift */,
+				B4BD0D5E2AEA769B00E2D75C /* ForecastModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,14 +333,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BD0D572AD9BD5C00E2D75C /* TodayWeatherView.swift in Sources */,
+				B4BD0D612AEA76B800E2D75C /* ModelExtensions.swift in Sources */,
 				B4BD0D3F2ACAB5F800E2D75C /* TodayViewModel.swift in Sources */,
+				B4BD0D5D2AEA769200E2D75C /* CurrentWeather.swift in Sources */,
 				B4BD0D492ACB2BDB00E2D75C /* Colors.swift in Sources */,
 				B45D00C32AC46DA4008D6D60 /* OnboardingView.swift in Sources */,
+				B4BD0D552AD9BD3100E2D75C /* TodayViewModelEnums.swift in Sources */,
+				B4BD0D632AEA76FA00E2D75C /* WeatherError.swift in Sources */,
+				B4BD0D652AEA7B8D00E2D75C /* APIServiceProtocol.swift in Sources */,
+				B4BD0D5F2AEA769B00E2D75C /* ForecastModel.swift in Sources */,
+				B4BD0D6D2AFDA21D00E2D75C /* TodaySuccessView.swift in Sources */,
 				B4BD0D432ACB2B7900E2D75C /* Images.swift in Sources */,
 				B4BD0D3C2ACAB5A900E2D75C /* EnableLocationView.swift in Sources */,
+				B4BD0D6F2AFDA22F00E2D75C /* TodaySuccessItemView.swift in Sources */,
 				B4BD0D452ACB2B9500E2D75C /* Fonts.swift in Sources */,
 				B45D00C12AC46DA4008D6D60 /* HappyDayApp.swift in Sources */,
 				B4BD0D472ACB2BB200E2D75C /* LocalizableString.swift in Sources */,
+				B4BD0D5A2AEA763200E2D75C /* APIService.swift in Sources */,
 				B4BD0D522ACD32F400E2D75C /* GradientBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HappyDay/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HappyDay/Info.plist;
@@ -435,8 +500,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,9 +509,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = p.w.HappyDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,6 +526,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HappyDay/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HappyDay/Info.plist;
@@ -465,8 +534,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,9 +543,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = p.w.HappyDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
