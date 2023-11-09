@@ -55,6 +55,18 @@ class TodayViewModel: NSObject, ObservableObject {
     func requestLocation() {
         manager.requestWhenInUseAuthorization()
     }
+
+    func createCityAndCountryName(cityName: String, countryName: String) -> String {
+        if !cityName.isEmpty && !countryName.isEmpty {
+            return cityName + ", " + countryName
+        } else if cityName.isEmpty && !countryName.isEmpty {
+            return countryName
+        } else if !cityName.isEmpty && countryName.isEmpty {
+            return cityName
+        } else {
+            return ""
+        }
+    }
 }
 
 extension TodayViewModel {
