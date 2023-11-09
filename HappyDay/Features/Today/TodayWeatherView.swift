@@ -8,7 +8,7 @@ struct TodayWeatherView: View {
         Group {
             if viewModel.apiStateToday == .success {
                 TabView(selection: $viewModel.currentTagSelection) {
-                    EmptyView()
+                    TodaySuccessView(viewModel: viewModel)
                         .tabItem {
                             customTabViewItem(tabItemName: .today, tagNumber: viewModel.currentTagSelection)
                         }
@@ -29,6 +29,9 @@ struct TodayWeatherView: View {
                     EmptyView()
                 }
             }
+        }
+        .task {
+            await viewModel.fetchTodayData()
         }
     }
 
