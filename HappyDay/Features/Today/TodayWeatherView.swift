@@ -24,7 +24,7 @@ struct TodayWeatherView: View {
             } else if viewModel.apiStateToday == .error || viewModel.apiStateToday == .loading {
                 switch viewModel.apiStateToday {
                 case .error:
-                    EmptyView()
+                    TodayErrorView(viewModel: viewModel, state: .today)
                 default:
                     EmptyView()
                 }
