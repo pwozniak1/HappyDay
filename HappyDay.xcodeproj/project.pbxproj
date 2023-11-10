@@ -33,6 +33,7 @@
 		B4BD0D652AEA7B8D00E2D75C /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D642AEA7B8D00E2D75C /* APIServiceProtocol.swift */; };
 		B4BD0D6D2AFDA21D00E2D75C /* TodaySuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D6C2AFDA21D00E2D75C /* TodaySuccessView.swift */; };
 		B4BD0D6F2AFDA22F00E2D75C /* TodaySuccessItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D6E2AFDA22F00E2D75C /* TodaySuccessItemView.swift */; };
+		B4BD0D712AFEA3CE00E2D75C /* TodayErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D702AFEA3CE00E2D75C /* TodayErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		B4BD0D642AEA7B8D00E2D75C /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
 		B4BD0D6C2AFDA21D00E2D75C /* TodaySuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySuccessView.swift; sourceTree = "<group>"; };
 		B4BD0D6E2AFDA22F00E2D75C /* TodaySuccessItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySuccessItemView.swift; sourceTree = "<group>"; };
+		B4BD0D702AFEA3CE00E2D75C /* TodayErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 				B4BD0D562AD9BD5C00E2D75C /* TodayWeatherView.swift */,
 				B4BD0D6C2AFDA21D00E2D75C /* TodaySuccessView.swift */,
 				B4BD0D6E2AFDA22F00E2D75C /* TodaySuccessItemView.swift */,
+				B4BD0D702AFEA3CE00E2D75C /* TodayErrorView.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				B4BD0D6D2AFDA21D00E2D75C /* TodaySuccessView.swift in Sources */,
 				B4BD0D432ACB2B7900E2D75C /* Images.swift in Sources */,
 				B4BD0D3C2ACAB5A900E2D75C /* EnableLocationView.swift in Sources */,
+				B4BD0D712AFEA3CE00E2D75C /* TodayErrorView.swift in Sources */,
 				B4BD0D6F2AFDA22F00E2D75C /* TodaySuccessItemView.swift in Sources */,
 				B4BD0D452ACB2B9500E2D75C /* Fonts.swift in Sources */,
 				B45D00C12AC46DA4008D6D60 /* HappyDayApp.swift in Sources */,

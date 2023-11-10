@@ -20,6 +20,11 @@ class TodayViewModel: NSObject, ObservableObject {
     let todayWeatherViewWind = String.LocalizableSwiftUI.todayWeatherViewWind
     let todayWeatherViewTabItemToday = String.LocalizableSwiftUI.todayWeatherViewTabItemToday
     let todayWeatherViewTabItemForecast = String.LocalizableSwiftUI.todayWeatherViewTabItemForecast
+    // TodayErrorView
+    let todayErrorViewTitlePart1 = String.LocalizableSwiftUI.todayErrorViewTitlePart1
+    let todayErrorViewTitlePart2 = String.LocalizableSwiftUI.todayErrorViewTitlePart2
+    let todayErrorViewTitlePart3 = String.LocalizableSwiftUI.todayErrorViewTitlePart3
+    let todayErrorViewTextMessage = String.LocalizableSwiftUI.todayErrorViewTextMessage
 
     @Published var currentTagSelection = 0
 
@@ -65,6 +70,14 @@ class TodayViewModel: NSObject, ObservableObject {
             return cityName
         } else {
             return ""
+        }
+    }
+
+    func loadAgainButtonErrorView(state: LoadAgainButtonErrorViewState) {
+        if state == .today {
+            Task { await fetchTodayData() }
+        } else if state == .forecast {
+            Task { await fetchForecastData() }
         }
     }
 }
