@@ -14,7 +14,7 @@ struct TodayWeatherView: View {
                         }
                         .tag(0)
 
-                    EmptyView()
+                    ForecastView(viewModel: viewModel)
                         .tabItem {
                             customTabViewItem(tabItemName: .forecast, tagNumber: viewModel.currentTagSelection)
                         }
@@ -24,7 +24,7 @@ struct TodayWeatherView: View {
             } else if viewModel.apiStateToday == .error || viewModel.apiStateToday == .loading {
                 switch viewModel.apiStateToday {
                 case .error:
-                    EmptyView()
+                    TodayErrorView(viewModel: viewModel, state: .today)
                 default:
                     EmptyView()
                 }
