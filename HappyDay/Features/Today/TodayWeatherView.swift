@@ -14,7 +14,7 @@ struct TodayWeatherView: View {
                         }
                         .tag(0)
 
-                    EmptyView()
+                    ForecastView(viewModel: viewModel)
                         .tabItem {
                             customTabViewItem(tabItemName: .forecast, tagNumber: viewModel.currentTagSelection)
                         }
