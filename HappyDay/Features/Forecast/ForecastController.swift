@@ -36,6 +36,8 @@ class ForecastController: UIViewController {
                             listFifthDay.append(item)
                         } else if finalItem == sixthDay!.description {
                             listSixthDay.append(item)
+                        } else {
+                            viewModel.apiStateForecast = .error
                         }
                     }
                 }
