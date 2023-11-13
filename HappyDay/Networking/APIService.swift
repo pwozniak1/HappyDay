@@ -1,6 +1,7 @@
 import Foundation
 
 struct APIService: APIServiceProtocol {
+    #warning("An 'apiKey' is hardcoded for public GitHub testing purposes")
     private let apiKey = "55f15b65c20862e666386d2b705cd8de"
     private let baseAPIURL = "https://api.openweathermap.org/data/2.5"
 
