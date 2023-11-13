@@ -11,6 +11,12 @@
 		B45D00C32AC46DA4008D6D60 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D00C22AC46DA4008D6D60 /* OnboardingView.swift */; };
 		B45D00C52AC46DA5008D6D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D00C42AC46DA5008D6D60 /* Assets.xcassets */; };
 		B45D00C82AC46DA5008D6D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */; };
+		B479C42A2B01A03A00399E83 /* HappyDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479C4292B01A03A00399E83 /* HappyDayTests.swift */; };
+		B479C4312B01A08E00399E83 /* APIMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479C4302B01A08E00399E83 /* APIMockService.swift */; };
+		B479C4332B01A0C100399E83 /* WeatherMockModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479C4322B01A0C100399E83 /* WeatherMockModels.swift */; };
+		B479C4362B01A12200399E83 /* today_info.geojson in Resources */ = {isa = PBXBuildFile; fileRef = B479C4352B01A12200399E83 /* today_info.geojson */; };
+		B479C4382B01A13800399E83 /* forecast_info.geojson in Resources */ = {isa = PBXBuildFile; fileRef = B479C4372B01A13800399E83 /* forecast_info.geojson */; };
+		B479C43A2B01A14F00399E83 /* CurrentWeatherMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479C4392B01A14F00399E83 /* CurrentWeatherMock.swift */; };
 		B4BD0D352ACAB38700E2D75C /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D312ACAB38700E2D75C /* Inter-Bold.otf */; };
 		B4BD0D362ACAB38700E2D75C /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */; };
 		B4BD0D372ACAB38700E2D75C /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B4BD0D332ACAB38700E2D75C /* Inter-SemiBold.otf */; };
@@ -44,12 +50,29 @@
 		B4BD0D822AFEE4D200E2D75C /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD0D812AFEE4D200E2D75C /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B479C42B2B01A03A00399E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B45D00B52AC46DA4008D6D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B45D00BC2AC46DA4008D6D60;
+			remoteInfo = HappyDay;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		B45D00BD2AC46DA4008D6D60 /* HappyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45D00C02AC46DA4008D6D60 /* HappyDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyDayApp.swift; sourceTree = "<group>"; };
 		B45D00C22AC46DA4008D6D60 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B45D00C42AC46DA5008D6D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45D00C72AC46DA5008D6D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B479C4272B01A03A00399E83 /* HappyDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B479C4292B01A03A00399E83 /* HappyDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyDayTests.swift; sourceTree = "<group>"; };
+		B479C4302B01A08E00399E83 /* APIMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMockService.swift; sourceTree = "<group>"; };
+		B479C4322B01A0C100399E83 /* WeatherMockModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMockModels.swift; sourceTree = "<group>"; };
+		B479C4352B01A12200399E83 /* today_info.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = today_info.geojson; sourceTree = "<group>"; };
+		B479C4372B01A13800399E83 /* forecast_info.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = forecast_info.geojson; sourceTree = "<group>"; };
+		B479C4392B01A14F00399E83 /* CurrentWeatherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherMock.swift; sourceTree = "<group>"; };
 		B4BD0D2E2ACAB34300E2D75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B4BD0D312ACAB38700E2D75C /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
 		B4BD0D322ACAB38700E2D75C /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
@@ -93,6 +116,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B479C4242B01A03A00399E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				B45D00BF2AC46DA4008D6D60 /* HappyDay */,
+				B479C4282B01A03A00399E83 /* HappyDayTests */,
 				B45D00BE2AC46DA4008D6D60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				B45D00BD2AC46DA4008D6D60 /* HappyDay.app */,
+				B479C4272B01A03A00399E83 /* HappyDayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,9 +167,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B479C4282B01A03A00399E83 /* HappyDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				B479C4292B01A03A00399E83 /* HappyDayTests.swift */,
+			);
+			path = HappyDayTests;
+			sourceTree = "<group>";
+		};
+		B479C4342B01A0E100399E83 /* ModelsJSON */ = {
+			isa = PBXGroup;
+			children = (
+				B479C4352B01A12200399E83 /* today_info.geojson */,
+				B479C4372B01A13800399E83 /* forecast_info.geojson */,
+				B479C4392B01A14F00399E83 /* CurrentWeatherMock.swift */,
+			);
+			path = ModelsJSON;
+			sourceTree = "<group>";
+		};
 		B4BD0D2F2ACAB35600E2D75C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B479C4342B01A0E100399E83 /* ModelsJSON */,
 				B4BD0D302ACAB36E00E2D75C /* Fonts */,
 				B45D00C42AC46DA5008D6D60 /* Assets.xcassets */,
 				B4BD0D4E2ACB2C3000E2D75C /* Localizable.strings */,
@@ -190,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				B4BD0D422ACB2B7900E2D75C /* Images.swift */,
+				B479C4322B01A0C100399E83 /* WeatherMockModels.swift */,
 				B4BD0D482ACB2BDB00E2D75C /* Colors.swift */,
 				B4BD0D442ACB2B9500E2D75C /* Fonts.swift */,
 				B4BD0D462ACB2BB200E2D75C /* LocalizableString.swift */,
@@ -222,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				B4BD0D592AEA763200E2D75C /* APIService.swift */,
+				B479C4302B01A08E00399E83 /* APIMockService.swift */,
 				B4BD0D642AEA7B8D00E2D75C /* APIServiceProtocol.swift */,
 				B4BD0D622AEA76FA00E2D75C /* WeatherError.swift */,
 			);
@@ -273,6 +326,24 @@
 			productReference = B45D00BD2AC46DA4008D6D60 /* HappyDay.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B479C4262B01A03A00399E83 /* HappyDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B479C42F2B01A03A00399E83 /* Build configuration list for PBXNativeTarget "HappyDayTests" */;
+			buildPhases = (
+				B479C4232B01A03A00399E83 /* Sources */,
+				B479C4242B01A03A00399E83 /* Frameworks */,
+				B479C4252B01A03A00399E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B479C42C2B01A03A00399E83 /* PBXTargetDependency */,
+			);
+			name = HappyDayTests;
+			productName = HappyDayTests;
+			productReference = B479C4272B01A03A00399E83 /* HappyDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -285,6 +356,10 @@
 				TargetAttributes = {
 					B45D00BC2AC46DA4008D6D60 = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					B479C4262B01A03A00399E83 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B45D00BC2AC46DA4008D6D60;
 					};
 				};
 			};
@@ -303,6 +378,7 @@
 			projectRoot = "";
 			targets = (
 				B45D00BC2AC46DA4008D6D60 /* HappyDay */,
+				B479C4262B01A03A00399E83 /* HappyDayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,12 +389,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45D00C82AC46DA5008D6D60 /* Preview Assets.xcassets in Resources */,
+				B479C4362B01A12200399E83 /* today_info.geojson in Resources */,
 				B4BD0D382ACAB38700E2D75C /* Inter-Medium.otf in Resources */,
 				B4BD0D362ACAB38700E2D75C /* Inter-Regular.otf in Resources */,
 				B4BD0D4C2ACB2C3000E2D75C /* Localizable.strings in Resources */,
 				B45D00C52AC46DA5008D6D60 /* Assets.xcassets in Resources */,
+				B479C4382B01A13800399E83 /* forecast_info.geojson in Resources */,
 				B4BD0D372ACAB38700E2D75C /* Inter-SemiBold.otf in Resources */,
 				B4BD0D352ACAB38700E2D75C /* Inter-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B479C4252B01A03A00399E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +459,7 @@
 				B4BD0D5D2AEA769200E2D75C /* CurrentWeather.swift in Sources */,
 				B4BD0D492ACB2BDB00E2D75C /* Colors.swift in Sources */,
 				B45D00C32AC46DA4008D6D60 /* OnboardingView.swift in Sources */,
+				B479C4312B01A08E00399E83 /* APIMockService.swift in Sources */,
 				B4BD0D552AD9BD3100E2D75C /* TodayViewModelEnums.swift in Sources */,
 				B4BD0D632AEA76FA00E2D75C /* WeatherError.swift in Sources */,
 				B4BD0D7C2AFEE45C00E2D75C /* TableSectionHeader.swift in Sources */,
@@ -383,7 +469,9 @@
 				B4BD0D762AFEE3D800E2D75C /* UIViewControllerRepresentable.swift in Sources */,
 				B4BD0D822AFEE4D200E2D75C /* UIImage.swift in Sources */,
 				B4BD0D742AFEE3BA00E2D75C /* ForecastView.swift in Sources */,
+				B479C4332B01A0C100399E83 /* WeatherMockModels.swift in Sources */,
 				B4BD0D802AFEE49500E2D75C /* View.swift in Sources */,
+				B479C43A2B01A14F00399E83 /* CurrentWeatherMock.swift in Sources */,
 				B4BD0D432ACB2B7900E2D75C /* Images.swift in Sources */,
 				B4BD0D3C2ACAB5A900E2D75C /* EnableLocationView.swift in Sources */,
 				B4BD0D7A2AFEE44600E2D75C /* SectionManager.swift in Sources */,
@@ -399,7 +487,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B479C4232B01A03A00399E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B479C42A2B01A03A00399E83 /* HappyDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B479C42C2B01A03A00399E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B45D00BC2AC46DA4008D6D60 /* HappyDay */;
+			targetProxy = B479C42B2B01A03A00399E83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B4BD0D4E2ACB2C3000E2D75C /* Localizable.strings */ = {
@@ -596,6 +700,42 @@
 			};
 			name = Release;
 		};
+		B479C42D2B01A03A00399E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = p.w.HappyDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyDay";
+			};
+			name = Debug;
+		};
+		B479C42E2B01A03A00399E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = p.w.HappyDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyDay";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -613,6 +753,15 @@
 			buildConfigurations = (
 				B45D00CC2AC46DA5008D6D60 /* Debug */,
 				B45D00CD2AC46DA5008D6D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B479C42F2B01A03A00399E83 /* Build configuration list for PBXNativeTarget "HappyDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B479C42D2B01A03A00399E83 /* Debug */,
+				B479C42E2B01A03A00399E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
